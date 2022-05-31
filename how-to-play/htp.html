@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schulte Challenge</title>
+
+    <link rel="stylesheet" href="htps.css">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <p class="how-to-play">
+        <b>Play the Schulte Table:</b> Schulte Tables are considered one of the most efficient training models for
+        improving peripheral vision, attention, and memory. They are made in the form of a table containing randomly
+        placed numbers or letters of one or more colors, depending on the difficulty level.
+        <br>
+        The most common version of the table has 3 columns and 3 rows, and cells are the numbers from 1 to 9.
+        <br><br>
+        Your challenge is to start from 1 and and go clicking till the highest number as fast as you can.
+        <br>
+        Give it a try!!
+    </p>
+
+    <a href="../index.html" class="btg">
+        <div class="gbtw">
+            Attempt Challenge.
+        </div>
+    </a>
+
+
+
+
+
+    <script>
+        const gbtw = document.querySelector('.gbtw');
+        const btg = document.querySelector('.btg');
+
+        var uiClick = new Audio("../audio/ui-click.mp3");
+
+        // var uiClick = new Audio("../images-svgs/ui-click.mp3");
+        // var uiClick = new Audio("ui-click.mp3");
+
+        gbtw.addEventListener('click', () => {
+            uiClick.play();
+        });
+
+        btg.addEventListener('click', () => {
+            uiClick.play();
+        });
+    </script>
+</body>
+
+</html>

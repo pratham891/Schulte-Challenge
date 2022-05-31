@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Architects Daughter', cursive;
+}
+
+body {
+    min-width: 100vw;
+    overflow: hidden;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.how-to-play {
+    /* height: 350px; */
+    width: 50vw;
+    background-color: aquamarine;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 5px;
+}
+
+.btg {
+    color: white;
+    height: 70px;
+    width: 150px;
+    margin: 20px;
+    background-color: indianred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.btg:hover {
+    background-color: rgba(205, 92, 92, 0.9);
+    box-shadow: none;
+}
+
