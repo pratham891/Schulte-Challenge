@@ -7,9 +7,9 @@ const gameClock = document.querySelector('#game-clock');
 const htplink = document.querySelector('.htplink');
 
 
-var audio = new Audio("../audio/audio.wav");
-var wrongAudio= new Audio("../audio/wrong-ans.mp3");
-var uiClick = new Audio("../audio/ui-click.mp3");
+var audio = new Audio("./audio/audio.wav");
+var wrongAudio= new Audio("./audio/wrong-ans.mp3");
+var uiClick = new Audio("./audio/ui-click.mp3");
 
 
 
